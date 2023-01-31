@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <iostream>
 #include <stdio.h>
-#include "/root/cml7/include/nn.h"
-#include "/root/cml7/src/nn.cpp"
+#include "../include/nn.h"
+#include "./nn.cpp"
 
 #define NUM_OF_FEATURES 2
 #define NUM_OF_EXAMPLE 3
@@ -30,20 +30,19 @@ int main()
     
 
     printf("Raw x1 data : \n\r ");
-    for (int i = 0; i < NUM_OF_EXAMPLE; i++);
+    for (int i = 0; i < NUM_OF_EXAMPLE; i++)
     {
         printf(" %f ",x1[i]);
     }
     printf("\n\r");
-     printf("Normalized x1 data : \n\r ");
+    printf("Normalized x1 data : \n\r ");
     for(int i = 0; i < NUM_OF_EXAMPLE; i++)
     {
         printf(" %f ",_x1[i]);
     }
     printf("\n\r");
-
     printf("Raw x2 data : \n\r ");
-    for (int i = 0; i < NUM_OF_EXAMPLE; i++);
+    for (int i = 0; i < NUM_OF_EXAMPLE; i++)
     {
         printf(" %f ",x2[i]);
     }
@@ -58,7 +57,7 @@ int main()
 
 
     printf("Raw y data : \n\r ");
-    for (int i = 0; i < NUM_OF_EXAMPLE; i++);
+    for (int i = 0; i < NUM_OF_EXAMPLE; i++)
     {
         printf(" %f ",y[i]);
     }

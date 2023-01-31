@@ -1,4 +1,4 @@
-#include "/root/cml7/include/nn.h"
+#include "../include/nn.h"
 #include <cmath>
 #include <iostream>
 #include <stdio.h>
